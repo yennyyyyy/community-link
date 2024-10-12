@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import './Hp.css';
@@ -21,9 +21,8 @@ import Update from './components/Update';
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/community-link">
+      <HashRouter basename="/community-link">
         <Routes>
-          {/* Default Route to Homepage */}
           <Route path="/" element={<Homepage />} />
           <Route path="/Homepage" element={<Homepage />} />
           <Route path="/About" element={<About />} />
@@ -38,7 +37,7 @@ function App() {
           <Route path="/ereceive" element={<Ereceive />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
