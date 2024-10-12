@@ -1,0 +1,211 @@
+/* for Login */
+.mn{
+    display: flex;
+  }
+  
+  .Purple {
+    width: 650px;
+    height: 700px;
+    background-color: purple;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .welcome{
+    margin-top: 80px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .usercontainer, .passcontainer{
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+    position: relative; 
+  }
+  
+  .subcontainer{
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative; 
+  }
+  
+  .fa-user, .fa-lock{
+    margin-top: 3px;
+    top: 25%;
+    left: 15px;
+    color: lightgrey;
+    position: absolute;
+    align-content: first baseline;
+  }
+  
+  .fa-location-dot{
+    margin-top: 10px;
+    top: 35%;
+    left: 15px;
+    color: lightgrey;
+    position: absolute;
+    align-content: first baseline;
+  }
+  
+  input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: purple;
+    border-radius: 10px;
+  }
+  
+  .user, .pswd{
+    padding-left: 35px;
+    width: 335px;
+    color: white;
+  }
+  
+  .log{
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+  }
+  
+  ::placeholder{
+    color: white;
+  }
+  
+  #login-form input[type="password"], #login-form input[type="text"]{
+    width: 100%;
+    padding: 12px 36px 12px 12px;
+    box-sizing: border-box;
+  }
+  
+  .fa-eye, .fa-eye-slash{
+    margin-bottom: 10px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: lightgrey;
+  }
+  
+  .Sub{
+    text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    padding-left: 30px;
+    width: 384px;
+  }
+  
+  .Cb{
+    color: white;
+  }
+  
+  .forpass{
+    color: white;
+    margin-left: 130px;
+  }
+  
+  .Logoside{
+    margin-left: 95px;
+    margin-top: 30px;
+  }
+  
+  .login{
+    width: 600px;
+    height: 600px;
+  } 
+  
+  /* for Reset */
+  .mn1{
+  display: flex;
+  }
+  
+  .lg{
+    margin-top: 25px;
+  }
+  
+  .rstlg{
+    margin-left: 20px;
+    width: 600px;
+    height: 600px;
+  }
+  
+  .second{
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 150px;
+  }
+  
+  .res{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 28px;
+  }
+  
+  .passcontainer2{
+    margin-top: 10px;
+  }
+  .passcontainer2, .passcontainer3{
+    flex-direction: row;
+    position: relative; 
+    color: transparent;
+  }
+  
+  .pswd2, .pswd3{
+    padding-left: 35px;
+    width: 335px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    border-color: gray;
+  }
+  
+  .pswd2::placeholder, .pswd3::placeholder{
+    color: gray;
+  }
+  
+  .respas{
+      background-color: purple;
+      color: white;
+      cursor: pointer;
+      width: 383px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: larger;
+  }
+  
+  .forpass{
+    color: white;
+    margin-left: 130px;
+  }
+  
+  .backLog{
+      color: purple;
+      margin-left: 145px;
+  }

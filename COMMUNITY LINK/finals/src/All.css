@@ -1,0 +1,996 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* CREATE */
+
+.ccc{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family:Georgia;
+}
+
+.purpleca{
+  width: 480px;
+  height: 750px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.llogo{
+  margin-left: 69px;
+}
+
+.create{
+  margin-left: 350px;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.creacc{
+  color: blueviolet;
+  margin-right: 20px;
+  text-align: left;
+  font-size: 50px;
+  margin-top: 90px;
+}
+
+.A{
+  display: flex;
+  margin-right: 20px;
+}
+
+.ww{
+  margin-right: 20px;
+}
+
+.fn, .ln,.un,.pssw,.pssw2{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 5px;
+}  
+
+.fn::placeholder, .ln::placeholder,.un.el::placeholder,.el::placeholder,.vilsub::placeholder,.pssw::placeholder,.pssw2::placeholder{
+  color: blueviolet;
+}
+
+.ABC,.CC{
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  width: 20px;
+}
+
+.el{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 10px;
+  width: 381px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.vilsub{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 10px;
+  width: 402px;
+  border: 1px solid gray;
+  background-color: white;
+  color: blueviolet;
+  border-radius: 5px;
+}
+
+.btn{
+border-radius: 10px;
+background-color: blueviolet;
+color: white;
+border: none;
+width: 403px;
+height: 40px;
+margin-right: 65px;
+margin-top: 20px;
+font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.linkli{
+  margin-right: 65px;
+  margin-top: 10px;
+  color: blueviolet;
+}
+
+#firstname input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+  
+  .texts{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 700px;
+  text-align: right;
+  color: white;
+  padding-top: 15px;
+}
+
+.ltl{
+  color: blueviolet;
+  font-weight: bolder;
+}
+ 
+
+/* LOGIN */
+
+.mn{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.pa {
+  width: 650px;
+  height: 750px;
+  background-color: blueviolet
+}
+
+.login-container {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.welcome{
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.usercontainer{
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.passcontainer{
+  margin-top: 5px;
+}
+
+/* .usercontainer, .passcontainer{
+  margin-top: 5px;
+  border:  white;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  background-color: blueviolet; 
+} */
+
+.subcontainer, .usercontainer, .passcontainer {
+  margin-top: 5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative; 
+}
+
+.fa-user, .fa-lock{
+  top: 30%;
+  left: 15px;
+  color: transparent;
+  position: absolute;
+  align-content: first baseline;
+  color: white;
+  
+
+}
+
+.fa-location-dot{
+  margin-top: 10px;
+  top: 5%;
+  left: 15px;
+  color: white;
+  position: absolute;
+  align-content: first baseline;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.user, .pswd{
+  padding-left: 35px;
+  width: 335px;
+  background-color: transparent;
+  border: 1px solid white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.log{
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+
+.user::placeholder,.pswd::placeholder{
+color: white;
+}
+
+#login-form input[type="password"], #login-form input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+
+.fa-eye, .fa-eye-slash{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.Sub{
+  text-align: justify;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+  padding-left: 30px;
+  width: 384px;
+}
+
+.Cb{
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btnlg{
+  background-color: white;
+  color: blueviolet;
+  padding: 10px;
+  font-size: large;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  border: none;
+}
+
+.forpass{
+  color: white;
+  margin-left: 140px;
+}
+
+.Logoside{
+  margin-left: 150px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.login{
+  width: 600px;
+  height: 600px;
+} 
+
+/* FORGOT PASSWORD */
+
+.forgot-password-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-items: center;
+}
+
+.forpaspurple {
+  width: 650px;
+  height: 750px;
+  background-color: blueviolet;
+}
+
+.forlogo{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.forpaslogo{
+  width: 500px;
+  height: 500px;
+}
+
+.forgot-password-form {
+  text-align: center;
+  padding: 20px;
+  margin-left: 250px;
+  color: #6946dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .fa-envelope{
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    align-content: first baseline;
+    margin-left: 15px;
+    
+  }
+  .email1 {
+    padding-left: 35px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .email2{
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .email1::placeholder {
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .btnfp {
+    background-color: #6946dd;
+    width: 320px;
+    color: #fff;
+    border:  1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  button:hover {
+    background-color: plum;
+  }
+  
+  .login-signup-links {
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .fa-solid fa-envelope{
+    margin-left: 60px;
+  }
+  .lsu,.lli{
+    color: blueviolet;
+  }
+
+  /* MARKETPLACE */
+
+.bodycontainer {
+  width: auto;
+  height: auto; 
+  border: 1px solid;
+  display: flex;
+  position: static;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: start;
+  flex-wrap: wrap; 
+
+}
+
+.icon {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+.icon i {
+  font-size: 35px;
+  color: #6946dd;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.productbg {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.product {
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+  width: 395px;
+  height: 25px;
+  border-color: #6946dd;
+  border-radius: 30px;
+  border-width: 3px;
+}
+
+.icon2{
+  display: flex; /* Ensure they are displayed as flex items */
+  flex-direction: row; /* Align icon2, itembg, and commentbg in the same row */
+  align-items: center;
+  margin-top: 50px;
+}
+
+.icon2 i {
+  font-size: 35px;
+  color: #6946dd;
+  margin-left: 10px;
+}
+
+.itembg {
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 20px;
+  width: 430px;
+  height: 250px;
+  border-color: #6946dd;
+  border-style: solid;
+}
+
+.item {
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.maria {
+  color: #000;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.image {
+  width: 230px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 95px;
+}
+
+.commentbg {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.comment {
+  color: black;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 15px;
+  width: 410px;
+  border-color: #6946dd;
+  border-radius: 30px;
+  margin-top: 10px;
+  border-width: 3px;
+}
+.product::placeholder {
+  color: #888; /* Set the desired color */
+}
+
+.comment::placeholder {
+  color: #888; /* Set the desired color */
+}
+.plogo{
+  margin-left: 10px;
+  align-items: flex-start;
+}
+.texts{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  text-align: right;
+  color: white;
+  padding-top: 15px;
+}
+
+.purple{
+  width: 1510px;
+  height: 75px;
+  border-color: blueviolet;
+  border-style: solid;
+  background-color: blueviolet;
+  display: flex;
+}
+
+.first{
+   
+  width: 1800px;
+  height: 300px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 20px;
+  
+}
+
+.h11{
+  width: 1000;
+  height: 361px;
+}
+
+
+.sec{
+  width: 1550px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-right: 20px;
+
+}
+
+.second{
+
+  width: 370px;
+  height: 260px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.h2{
+  width: 490px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.h3{
+  width: 490px;
+  height: 230px;
+  margin-top: 30px;
+  margin-left: 10px;
+
+}
+
+.h4{
+  width: 490px;
+  height: 230px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 40px;
+
+}
+
+
+.logo{
+  width: 150px;
+  height: 60px;
+  margin-bottom: 200px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.texths{
+  margin-top: 20px;
+  margin-left: 400px;
+  color: white;
+}
+
+.texte{
+    margin-top: 20px;
+    margin-left: 60px;
+
+  }
+
+  .textfs{
+    margin-top: 20px;
+    margin-left: 60px;
+
+
+  }
+
+.texts{
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  
+}
+.textmp {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: bolder;
+  width: 100px;
+  
+}
+
+
+.profile{
+margin-left: 50px;
+
+}
+
+.feed{
+  display: flex;
+}
+
+.purplep{
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.post{
+  width: 500px;
+  height: 50px;
+  margin-top: 42px;
+  margin-left: 20px;
+  border-color: blueviolet;
+  border-width: 3px;
+  font-size: larger;
+  border-radius: 10px;
+}
+
+.btnf{
+  background-color: blueviolet;
+  color: white;
+  height: 40px;
+  width: 50px;
+  margin-top: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.rpost{
+  width: 500px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-color: blueviolet;
+  border-width: 3px;
+  font-size: larger;
+  border-radius: 10px;
+    margin: 0;
+  
+}
+
+.rpurplep{
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.rfeed{
+  display: flex;
+}
+
+.abcd{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .asdfg
+  {
+    display: flex;
+
+  }
+
+  .dbtn{
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 20px;
+    border-color: purple;
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  .purple-box {
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-color: blueviolet;
+    border-width: 3px;
+    border-style: solid;
+    padding: 2px;
+    border-radius: 5px;
+    color: black;
+    margin-left: 15px;
+    word-wrap: break-word;
+    overflow: auto;  
+  }
+
+.container{
+  color: blanchedalmond;
+  height: auto;
+  width: auto;
+
+}
+.container1{
+  width: 1395px;
+  height: 75px;
+  border-color: blueviolet;
+  border-style: solid;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#firstname input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+input{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.texts{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  text-align: right;
+  color: white;
+  padding-top: 15px;
+}
+.text {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.bodycontainer{
+  width: 1400px;
+  height: 650px;
+  border: 1px solid;
+  display: flex;
+  position: relative;
+}
+.reportbg{
+  background-color: blueviolet;
+  margin-top: 50px;
+  border-radius: 30px;
+  width: 400px;
+  height: 140px;
+ 
+}
+.report{
+  color: white;
+  font-weight: bolder;
+  margin-left: 150px; 
+  text-align: center;
+  display: flex;
+  padding-top: 45px;
+  font-size: 30px;
+}
+.reportcon{
+  border: 1px solid blueviolet;
+  display: flex;
+  height: 450px;
+  width: 850px;
+  margin-top: 80px;
+  border-radius: 20px;
+  position: relative;
+  top: 20px;
+  right: 70px;
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  vertical-align: top;
+  padding: 50px;
+  box-sizing: border-box;
+
+}
+.subtn{
+  background-color: blueviolet;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 550px;
+  margin-right: 10px;
+  color: white;
+  font-family: Arial;
+  width: 120px;
+  
+}
+.whitecontainer{
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+
+  /*Profile */
+
+
+.cmlogo{
+  height: 125px;
+  width: 180px;
+  margin-left: 40px;
+}
+.prologoblck{
+  height: 100px;
+  width: 150px;
+  margin-top: 20px;
+  display: flex;
+  
+}
+.div1{
+
+  display: flex;
+  font-size: 50px;
+  color: black;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.name2 {
+  color: black;
+  font-size: 30px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+.address {
+  color: black;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  display: flex;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  
+}
+.bodycon{
+  border: 2px blueviolet solid;
+  color: black;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 8px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  width: 1500px;
+  height: 290px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.report1{
+  color: black;
+  font-weight: bolder;
+  margin-left: 20px; 
+  text-align: center;
+  display: flex;
+  padding-top: 55px;
+  font-size: 20px;
+}
+
+/*E-report Receive*/
+  
+.Report {
+  width: 500px;
+  height: 476px;
+  background-color: white;
+  margin-top: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-top: 3px dotted black; /* Add a dotted line to the top */
+  border-bottom: 3px dotted black; 
+  float: left;  
+}
+
+.textt{
+  color: black;
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.dot{
+  color: black;
+  font-weight: bold;
+}
+.e-icon{
+  display: flex; 
+  font-size: 50px;
+  color: black;
+  margin-left: 15px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 13px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+}
+
+.name {
+  color: black;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.email {
+  color: black;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 9px;
+  margin-bottom: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.e-report{
+  width: 1015px;
+  height: 480px;
+  background-color: white;
+  margin-left: 500px;
+  margin-top: 50px;
+  border: 1px solid black;
+}
+.chatbg{
+  background-color: black;
+  margin-left: 310px;
+  border-radius: 30px;
+  width: 600px;
+  height: 110px;
+}
+.chat{
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+}
