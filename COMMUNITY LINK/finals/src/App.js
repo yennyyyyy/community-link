@@ -18,31 +18,28 @@ import Ereceive from './components/Ereceive';
 import Profile from './components/Profile';
 import Update from './components/Update';
 
-
-
 function App() {
   return (
-
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/community-link">
         <Routes>
-          <Route path="/Homepage" element={<Homepage/>}> </Route>
-          <Route path="/About" element={<About/>}> </Route>
-          <Route path="/Feed" element={<Feed/>}> </Route>
-          <Route path="/comlink/one/:pid" element={<Update/>}> </Route>
-          <Route path="/Market" element={<Marketplace/>}> </Route>
-          <Route path="/Reset" element={<Reset/>}> </Route>
-          <Route path="/comlink/login" element={<Login/>}> </Route>
-          <Route path="/comlink/create" element={<Create/>}> </Route>
-          <Route path="/Forgot" element={<Forgotpassword/>}> </Route>
-          <Route path="/report" element={<Ereport/>}> </Route>
-          <Route path="/ereceive" element={<Ereceive/>}> </Route>
-          <Route path="/profile" element={<Profile/>}> </Route>
+          {/* Default Route to Homepage */}
+          <Route path="/" element={<Homepage />} />
+          <Route path="/Homepage" element={<Homepage />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Feed" element={<Feed />} />
+          <Route path="/comlink/one/:pid" element={<Update />} />
+          <Route path="/Market" element={<Marketplace />} />
+          <Route path="/Reset" element={<Reset />} />
+          <Route path="/comlink/login" element={<Login />} />
+          <Route path="/comlink/create" element={<Create />} />
+          <Route path="/Forgot" element={<Forgotpassword />} />
+          <Route path="/report" element={<Ereport />} />
+          <Route path="/ereceive" element={<Ereceive />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
-    
     </div>
-
   );
 }
 
